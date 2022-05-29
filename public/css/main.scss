@@ -307,6 +307,8 @@ header.image-header{
     text-align: center;
     h1 {
         margin: 0px;
+        margin-left: 1em;
+        margin-right: 1em;
         display: inline-block;
         padding: 0.8rem;
         padding-left: 3rem;
@@ -315,6 +317,10 @@ header.image-header{
         color: white;
         font-size: 3rem;
         font-weight: 500;
+
+        @media only screen and (max-width: $normalScreen) {
+            font-size: 2.4rem;
+        }
     }
 }
 
@@ -324,6 +330,9 @@ main.section {
         margin-top: 4rem;
         margin-bottom: 4rem;
         max-width: 800px;
+
+        padding-left: 1em;
+        padding-right: 1em;
 
         font-size: 1.6rem;
         font-weight: 200;
