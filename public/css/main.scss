@@ -4,6 +4,7 @@ $blueColor: #26556c;
 
 $thickTextGrayColor: #4d4d4d;
 $textColor: #333;
+$lightText: #999;
 
 $smallScreen: 769px;
 $normalScreen: 1200px;
@@ -337,6 +338,30 @@ main.section {
         font-size: 1.6rem;
         font-weight: 200;
         color: $textColor;
+    }
+}
+
+.double-gallery {
+    width: 100%;
+    .image-container {
+        display: flex;
+        img {
+            width: 50%;
+        }
+        @media only screen and (max-width: $normalScreen) {
+            flex-direction: column;
+            gap: 1em;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .descr {
+        margin-top: 0.6em;
+        margin-left: 1.6em;
+        font-size: 1.4rem;
+        font-weight: 300;
+        color: $lightText
     }
 }
 
