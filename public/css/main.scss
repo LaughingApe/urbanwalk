@@ -5,6 +5,9 @@ $blueColor: #26556c;
 $thickTextGrayColor: #4d4d4d;
 $textColor: #333;
 
+$smallScreen: 769px;
+$normalScreen: 1200px;
+
 * {
     box-sizing: border-box;
 }
@@ -17,9 +20,31 @@ body {
 
 // Landing page
 
+.navigation-open {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 0;
+    background-color: unset;
+    color: $thickTextGrayColor;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.6rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    cursor: pointer;
+
+    @media only screen and (max-width: $smallScreen) {
+        display: block;
+    }
+}
+
 .landing-page-header {
     height: 100vh;
     width: 100vw;
+    
+    padding: 5vw;
     
     display: flex;
     flex-direction: row;
@@ -46,6 +71,21 @@ body {
             color: #b3b3b3ff;
         }
     }
+
+    @media only screen and (max-width: $smallScreen) {
+        & > div {
+            img {
+                width: 67vw;
+                height: auto;
+            }
+            h1 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
 }
 
 .divider {
@@ -59,6 +99,26 @@ nav.sidebar {
     background-color: $darkblueColor;
     top: 0px;
     position: sticky;
+
+    transition: left 0.3s;
+    
+
+    .navigation-back-container {
+        display: none;
+        text-align: right;
+        .navigation-back {
+            display: inline-block;
+            border: 0;
+            background-color: unset;
+            color: white;
+            font-size: 2rem;
+            font-weight: 600;
+            padding: 1.2rem;
+            padding-right: 1.6rem;
+            padding-left: 1.6rem;
+            cursor: pointer;
+        }
+    }
 
     .sidebar-container {
         height: 100vh;
@@ -79,6 +139,9 @@ nav.sidebar {
         }
 
         .nav-link-container {
+            margin-top: 1.4em;
+            margin-bottom: 1.4em;
+
             font-size: 1.4em;
             text-align: center;
             a {
@@ -104,6 +167,28 @@ nav.sidebar {
             }
         }
     }
+
+    @media only screen and (max-width: $smallScreen) {
+        position: fixed;
+        left: -100vw;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+
+        .navigation-back-container {
+            display: block;
+        }
+
+        .sidebar-container {
+            margin-top: -4.4rem;
+            padding: 3em;
+            .nav-link-container {
+                .separator {
+                    height: 1.2em;
+                }
+            }
+        }
+    }
 }
 
 .right-side {
@@ -111,8 +196,8 @@ nav.sidebar {
 
     .landing-page-content {
         padding: 2rem;
-        padding-left: 16rem;
-        padding-right: 16rem;
+        padding-left: 12vw;
+        padding-right: 12vw;
 
         a {
             font-weight: 400;
@@ -125,6 +210,18 @@ nav.sidebar {
             margin-bottom: 5rem;
             display: flex;
 
+            &.right {
+                flex-direction: row-reverse;
+                .descr {
+                    margin-right: 2em;
+                }
+            }
+            &.left {
+                .descr {
+                    margin-left: 2em;
+                }
+            }
+
             .img-container {
                 flex: 1;
                 img {
@@ -134,13 +231,6 @@ nav.sidebar {
 
             .descr {
                 flex: 1;
-                
-                &.left {
-                    margin-right: 2em;
-                }
-                &.right {
-                    margin-left: 2em;
-                }
                 
                 h2 {
                     margin-top: 0;
@@ -154,6 +244,23 @@ nav.sidebar {
                     font-weight: 300;
                     color: $thickTextGrayColor;
                 }
+            }
+
+
+            @media only screen and (max-width: $normalScreen) {
+                flex-direction: column;
+                &.right {
+                    flex-direction: column;
+                    .descr {
+                        margin: 0;
+                    }
+                }
+                &.left {
+                    .descr {
+                        margin: 0;
+                    }
+                }
+                
             }
         }
     }
