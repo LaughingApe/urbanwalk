@@ -29,19 +29,19 @@
                 <div class="sidebar-container">
                     <img class="logo" src="/assets/logo_full_white.png" />
                     <div class="nav-link-container">
-                        <a href="#" class="nav-link">Visvalža iela</a>
+                        <a href="#visvalza" class="nav-link">Visvalža iela</a>
                         <img class="separator" src="/assets/separator.png"/>
-                        <a href="#" class="nav-link">E. Birznieka-Upīša iela</a>
+                        <a href="#ebu" class="nav-link">E. Birznieka-Upīša iela</a>
                         <img class="separator" src="/assets/separator.png"/>
-                        <a href="#" class="nav-link">Upīša pasāža</a>
+                        <a href="#upisa" class="nav-link">Upīša pasāža</a>
                         <img class="separator" src="/assets/separator.png"/>
-                        <a href="#" class="nav-link">Čakmarijas iela</a>
+                        <a href="#cakmarijas" class="nav-link">Čakmarijas iela</a>
                         <img class="separator" src="/assets/separator.png"/>
-                        <a href="#" class="nav-link">Dzirnavu iela</a>
+                        <a href="#dzirnavu" class="nav-link">Dzirnavu iela</a>
                         <img class="separator" src="/assets/separator.png"/>
-                        <a href="#" class="nav-link">K. Barona iela</a>
+                        <a href="#barona" class="nav-link">K. Barona iela</a>
                         <img class="separator" src="/assets/separator.png"/>
-                        <a href="#" class="nav-link">Vērmanes dārzs</a>
+                        <a href="#vermanes" class="nav-link">Vērmanes dārzs</a>
                     </div>
                     <div class="lang-link-container">
                         <a href="#" class="lang-link selected">Latviski</a>
@@ -53,7 +53,7 @@
             <div class="right-side">
 
                 <main class="landing-page-content">
-                    <div class="way-el">
+                    <div class="way-el" id="visvalza">
                         <div class="img-container">
                             <img src="/assets/images/visvalza.jpg">
                         </div> 
@@ -63,7 +63,7 @@
                         </div>
                     </div>
 
-                    <div class="way-el">
+                    <div class="way-el" id="ebu">
                         <div class="descr left">
                             <h2>E. Birznieka-Upīša iela</h2>
                             <p>Ernesta Birznieka-Upīša iela ir vidēja izmēra visai mierīga ieliņa vietā, kur pilsētas centrs pamazām pāriet Avotu apkaimē. Man pa <a href={{ url('/lv/ebu-iela') }}>E. Birznieka-Upīša ielu</a> ir jāiet vien neliels posms, līdz nokļūstu Upīša pasāžā.</p>
@@ -73,7 +73,7 @@
                         </div> 
                     </div>
 
-                    <div class="way-el">
+                    <div class="way-el" id="upisa">
                         <div class="img-container">
                             <img src="/assets/images/upisa.jpg">
                         </div> 
@@ -83,7 +83,7 @@
                         </div>
                     </div>
 
-                    <div class="way-el">
+                    <div class="way-el" id="cakmarijas">
                         <div class="descr left">
                             <h2>Čakmarijas iela</h2>
                             <p>Nākamais nelielais mana ceļa posms ir pa Marijas ielu. Marijas iela un tās turpinājums Čaka iela (reizēm sarunvalodā saukta par <a href={{ url('/lv/cakmarijas-iela') }}>Čakmarijas ielu</a>) jau gadiem ir Rīgas lielā satiksmes bēda.</p>
@@ -93,7 +93,7 @@
                         </div> 
                     </div>
 
-                    <div class="way-el">
+                    <div class="way-el" id="dzirnavu">
                         <div class="img-container">
                             <img src="/assets/images/dzirnavu.jpg">
                         </div> 
@@ -103,7 +103,7 @@
                         </div>
                     </div>
 
-                    <div class="way-el">
+                    <div class="way-el" id="barona">
                         <div class="descr left">
                             <h2>K. Barona iela</h2>
                             <p>Lai nokļūtu līdz Vērmanes dārzam, eju pa <a href={{ url('/lv/barona-iela') }}>K. Barona ielu</a>. Šajā posmā ir Jāņa Rozes oriģinālā grāmatnīca, kā arī Latvijas vēsturē nozīmīgais nams Baronā ielā 3. Šobrīd šeit vēl brauc arī mašīnas, bet nākotnē Barona ielu plānots pārveidot par gājēju, velosipēdu un tramvaja ielu.</p>
@@ -113,7 +113,7 @@
                         </div> 
                     </div>
 
-                    <div class="way-el">
+                    <div class="way-el" id="vermanes">
                         <div class="img-container">
                             <img src="/assets/images/vermanes.jpg">
                         </div> 
