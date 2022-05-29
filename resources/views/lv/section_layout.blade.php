@@ -29,5 +29,5 @@
         @yield('content')
     </body>
 
-    @include('footer')
+    @include('lv.footer')
 </html>

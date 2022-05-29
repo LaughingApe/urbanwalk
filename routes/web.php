@@ -14,34 +14,34 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('main');
+    return view('lv.main');
 });
 
 
 Route::get('/lv/visvalza-iela', function () {
-    return view('visvalza');
+    return view('lv.visvalza');
 });
 
 Route::get('/lv/ebu-iela', function () {
-    return view('ebu');
+    return view('lv.ebu');
 });
 
 Route::get('/lv/upisa-pasaza', function () {
-    return view('upisa');
+    return view('lv.upisa');
 });
 
 Route::get('/lv/cakmarijas-iela', function () {
-    return view('cakmarijas');
+    return view('lv.cakmarijas');
 });
 
 Route::get('/lv/dzirnavu-iela', function () {
-    return view('dzirnavu');
+    return view('lv.dzirnavu');
 });
 
 Route::get('/lv/barona-iela', function () {
-    return view('barona');
+    return view('lv.barona');
 });
 
 Route::get('/lv/vermanes-darzs', function () {
-    return view('vermanes');
+    return view('lv.vermanes');
 });

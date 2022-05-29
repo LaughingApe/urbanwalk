@@ -128,7 +128,7 @@
                     </div>
                     
                 </main>
-                @include('footer')
+                @include('lv.footer')
             </div>
 
         </div>

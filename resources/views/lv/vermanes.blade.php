@@ -1,4 +1,4 @@
-@extends('section_layout')
+@extends('lv.section_layout')
 
 @section('title')
 Vērmanes dārzs
