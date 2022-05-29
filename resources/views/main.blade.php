@@ -50,78 +50,82 @@
                 </div>
             </nav>
 
-            <main class="landing-page-content">
-                <div class="way-el">
-                    <div class="img-container">
-                        <img src="/assets/images/visvalza.jpg">
-                    </div> 
-                    <div class="descr right">
-                        <h2>Visvalža iela</h2>
-                        <p>Mans ceļš uz universitāti sākas <a href={{ url('/lv/visvalza-iela') }}>Visvalža ielā</a>. Tā ir neliela ieliņa starp Satekles un Ernesta Birznieka-Upīša ielu. Es eju gar Rīgas Ukraiņu vidusskolu, līdz nonāku Ernesta Birznieka-Upīša ielā.</p>
-                    </div>
-                </div>
+            <div class="right-side">
 
-                <div class="way-el">
-                    <div class="descr left">
-                        <h2>E. Birznieka-Upīša iela</h2>
-                        <p>Ernesta Birznieka-Upīša iela ir vidēja izmēra visai mierīga ieliņa vietā, kur pilsētas centrs pamazām pāriet Avotu apkaimē. Man pa <a href={{ url('/lv/ebu-iela') }}>E. Birznieka-Upīša ielu</a> ir jāiet vien neliels posms, līdz nokļūstu Upīša pasāžā.</p>
+                <main class="landing-page-content">
+                    <div class="way-el">
+                        <div class="img-container">
+                            <img src="/assets/images/visvalza.jpg">
+                        </div> 
+                        <div class="descr right">
+                            <h2>Visvalža iela</h2>
+                            <p>Mans ceļš uz universitāti sākas <a href={{ url('/lv/visvalza-iela') }}>Visvalža ielā</a>. Tā ir neliela ieliņa starp Satekles un Ernesta Birznieka-Upīša ielu. Es eju gar Rīgas Ukraiņu vidusskolu, līdz nonāku Ernesta Birznieka-Upīša ielā.</p>
+                        </div>
                     </div>
-                    <div class="img-container">
-                        <img src="/assets/images/ebu.jpg">
-                    </div> 
-                </div>
 
-                <div class="way-el">
-                    <div class="img-container">
-                        <img src="/assets/images/upisa.jpg">
-                    </div> 
-                    <div class="descr right">
-                        <h2>Upīša pasāža</h2>
-                        <p></p>
+                    <div class="way-el">
+                        <div class="descr left">
+                            <h2>E. Birznieka-Upīša iela</h2>
+                            <p>Ernesta Birznieka-Upīša iela ir vidēja izmēra visai mierīga ieliņa vietā, kur pilsētas centrs pamazām pāriet Avotu apkaimē. Man pa <a href={{ url('/lv/ebu-iela') }}>E. Birznieka-Upīša ielu</a> ir jāiet vien neliels posms, līdz nokļūstu Upīša pasāžā.</p>
+                        </div>
+                        <div class="img-container">
+                            <img src="/assets/images/ebu.jpg">
+                        </div> 
                     </div>
-                </div>
 
-                <div class="way-el">
-                    <div class="descr left">
-                        <h2>Čakmarijas iela</h2>
-                        <p></p>
+                    <div class="way-el">
+                        <div class="img-container">
+                            <img src="/assets/images/upisa.jpg">
+                        </div> 
+                        <div class="descr right">
+                            <h2>Upīša pasāža</h2>
+                            <p></p>
+                        </div>
                     </div>
-                    <div class="img-container">
-                        <img src="/assets/images/caka.jpg">
-                    </div> 
-                </div>
 
-                <div class="way-el">
-                    <div class="img-container">
-                        <img src="/assets/images/dzirnavu.jpg">
-                    </div> 
-                    <div class="descr right">
-                        <h2>Dzirnavu iela</h2>
-                        <p></p>
+                    <div class="way-el">
+                        <div class="descr left">
+                            <h2>Čakmarijas iela</h2>
+                            <p></p>
+                        </div>
+                        <div class="img-container">
+                            <img src="/assets/images/caka.jpg">
+                        </div> 
                     </div>
-                </div>
 
-                <div class="way-el">
-                    <div class="descr left">
-                        <h2>K. Barona iela</h2>
-                        <p></p>
+                    <div class="way-el">
+                        <div class="img-container">
+                            <img src="/assets/images/dzirnavu.jpg">
+                        </div> 
+                        <div class="descr right">
+                            <h2>Dzirnavu iela</h2>
+                            <p></p>
+                        </div>
                     </div>
-                    <div class="img-container">
-                        <img src="/assets/images/barona.jpg">
-                    </div> 
-                </div>
 
-                <div class="way-el">
-                    <div class="img-container">
-                        <img src="/assets/images/vermanes.jpg">
-                    </div> 
-                    <div class="descr right">
-                        <h2>Vērmanes dārzs</h2>
-                        <p></p>
+                    <div class="way-el">
+                        <div class="descr left">
+                            <h2>K. Barona iela</h2>
+                            <p></p>
+                        </div>
+                        <div class="img-container">
+                            <img src="/assets/images/barona.jpg">
+                        </div> 
                     </div>
-                </div>
-                
-            </main>
+
+                    <div class="way-el">
+                        <div class="img-container">
+                            <img src="/assets/images/vermanes.jpg">
+                        </div> 
+                        <div class="descr right">
+                            <h2>Vērmanes dārzs</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                </main>
+                @include('footer')
+            </div>
 
         </div>
     </body>
