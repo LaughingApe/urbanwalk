@@ -57,14 +57,14 @@
                     </div> 
                     <div class="descr right">
                         <h2>Visvalža iela</h2>
-                        <p>Mans ceļš uz universitāti sākas <a href="#">Visvalža ielā</a>. Tā ir neliela ieliņa starp Satekles un Ernesta Birznieka-Upīša ielu. Es eju gar Rīgas Ukraiņu vidusskolu, līdz nonāku Ernesta Birznieka-Upīša ielā.</p>
+                        <p>Mans ceļš uz universitāti sākas <a href={{ url('/lv/visvalza-iela') }}>Visvalža ielā</a>. Tā ir neliela ieliņa starp Satekles un Ernesta Birznieka-Upīša ielu. Es eju gar Rīgas Ukraiņu vidusskolu, līdz nonāku Ernesta Birznieka-Upīša ielā.</p>
                     </div>
                 </div>
 
                 <div class="way-el">
                     <div class="descr left">
                         <h2>E. Birznieka-Upīša iela</h2>
-                        <p>Ernesta Birznieka-Upīša iela ir vidēja izmēra visai mierīga ieliņa vietā, kur pilsētas centrs pamazām pāriet Avotu apkaimē. Man pa <a href="#">E. Birznieka-Upīša ielu</a> ir jāiet vien neliels posms, līdz nokļūstu Upīša pasāžā.</p>
+                        <p>Ernesta Birznieka-Upīša iela ir vidēja izmēra visai mierīga ieliņa vietā, kur pilsētas centrs pamazām pāriet Avotu apkaimē. Man pa <a href={{ url('/lv/ebu-iela') }}>E. Birznieka-Upīša ielu</a> ir jāiet vien neliels posms, līdz nokļūstu Upīša pasāžā.</p>
                     </div>
                     <div class="img-container">
                         <img src="/assets/images/ebu.jpg">
