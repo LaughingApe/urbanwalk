@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('lv.main');
 });
 
+Route::get('/lv', function () {
+    return view('lv.main');
+});
+
 
 Route::get('/lv/visvalza-iela', function () {
     return view('lv.visvalza');
@@ -44,4 +48,38 @@ Route::get('/lv/barona-iela', function () {
 
 Route::get('/lv/vermanes-darzs', function () {
     return view('lv.vermanes');
+});
+
+
+Route::get('/en', function () {
+    return view('en.main');
+});
+
+
+Route::get('/en/visvalza-iela', function () {
+    return view('en.visvalza');
+});
+
+Route::get('/en/ebu-iela', function () {
+    return view('en.ebu');
+});
+
+Route::get('/en/upisa-pasaza', function () {
+    return view('en.upisa');
+});
+
+Route::get('/en/cakmarijas-iela', function () {
+    return view('en.cakmarijas');
+});
+
+Route::get('/en/dzirnavu-iela', function () {
+    return view('en.dzirnavu');
+});
+
+Route::get('/en/barona-iela', function () {
+    return view('en.barona');
+});
+
+Route::get('/en/vermanes-darzs', function () {
+    return view('en.vermanes');
 });

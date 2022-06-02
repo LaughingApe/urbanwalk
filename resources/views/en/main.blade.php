@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="lv">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>Pilsētvide ceļā uz universitāti</title>
+        <title>Urban Walk to University</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,7 +20,6 @@
             <div>
                 <img src="/assets/logo_colored.png" />
                 <h1>Urban Walk to University</h1>
-                <p>Pilsētvide ceļā uz universitāti</p>
             </div>
         </header>
 
@@ -37,7 +36,7 @@
                         <img class="separator" src="/assets/separator.png"/>
                         <a href="#ebu" onclick="closeNav()" class="nav-link">E. Birznieka-Upīša iela</a>
                         <img class="separator" src="/assets/separator.png"/>
-                        <a href="#upisa" onclick="closeNav()" class="nav-link">Upīša pasāža</a>
+                        <a href="#upisa" onclick="closeNav()" class="nav-link">Upītis passage</a>
                         <img class="separator" src="/assets/separator.png"/>
                         <a href="#cakmarijas" onclick="closeNav()" class="nav-link">Čakmarijas iela</a>
                         <img class="separator" src="/assets/separator.png"/>
@@ -45,11 +44,11 @@
                         <img class="separator" src="/assets/separator.png"/>
                         <a href="#barona" onclick="closeNav()" class="nav-link">K. Barona iela</a>
                         <img class="separator" src="/assets/separator.png"/>
-                        <a href="#vermanes" onclick="closeNav()" class="nav-link">Vērmanes dārzs</a>
+                        <a href="#vermanes" onclick="closeNav()" class="nav-link">Vērmane Garden</a>
                     </div>
                     <div class="lang-link-container">
-                        <a href={{ url('/lv') }} class="lang-link selected">Latviski</a>
-                        <a href={{ url('/en') }} class="lang-link">English</a>
+                        <a href={{ url('/lv') }} class="lang-link">Latviski</a>
+                        <a href={{ url('/en') }} class="lang-link selected">English</a>
                     </div>
                 </div>
             </nav>
@@ -63,7 +62,7 @@
                         </div> 
                         <div class="descr right">
                             <h2>Visvalža iela</h2>
-                            <p>Mans ceļš uz universitāti sākas <a href={{ url('/lv/visvalza-iela') }}>Visvalža ielā</a>. Tā ir neliela ieliņa starp Satekles un Ernesta Birznieka-Upīša ielu. Es eju gar Rīgas Ukraiņu vidusskolu, līdz nonāku Ernesta Birznieka-Upīša ielā.</p>
+                            <p>My way to the university starts on <a href={{ url('/en/visvalza-iela') }}>Visvalža iela</a>. It is a small street connecting Satekles iela and Ernesta Birznieka-Upīša iela. I pass the Riga Ukrainian Secondary School until I reach Ernesta Birznieka-Upīša iela.</p>
                         </div>
                     </div>
 
@@ -73,7 +72,7 @@
                         </div> 
                         <div class="descr">
                             <h2>E. Birznieka-Upīša iela</h2>
-                            <p>Ernesta Birznieka-Upīša iela ir vidēja izmēra visai mierīga ieliņa vietā, kur pilsētas centrs pamazām pāriet Avotu apkaimē. Man pa <a href={{ url('/lv/ebu-iela') }}>E. Birznieka-Upīša ielu</a> ir jāiet vien neliels posms, līdz nokļūstu Upīša pasāžā.</p>
+                            <p>Ernesta Birznieka-Upīša iela is a medium sized and relatively calm street in a place where city center turns into Avoti neighbourhood. I only walk a small part of <a href={{ url('/en/ebu-iela') }}>E. Birznieka-Upīša iela</a> to reach the Upītis passage.</p>
                         </div>
                     </div>
 
@@ -82,8 +81,8 @@
                             <img src="/assets/images/upisa.jpg">
                         </div> 
                         <div class="descr">
-                            <h2>Upīša pasāža</h2>
-                            <p>Lai ceļš būtu nedaudz īsāks, es izeju caur <a href={{ url('/lv/upisa-pasaza') }}>Upīša pasāžu</a>. Tas ir pagalmu tīkls, kas savieno E. Birznieka-Upīša ielu ar Marijas ielu. No tā iespējams iziet arī uz Dzirnavu ielu.</p>
+                            <h2>Upītis passage</h2>
+                            <p>To make my walk shorter, I go through <a href={{ url('/en/upisa-pasaza') }}>Upītis passage</a>. It is a network of inner yards that connects E. Birznieka-Upīša iela with Marijas iela. You can also exit to Dzirnavu iela.</p>
                         </div>
                     </div>
 
@@ -93,7 +92,7 @@
                         </div> 
                         <div class="descr">
                             <h2>Čakmarijas iela</h2>
-                            <p>Nākamais nelielais mana ceļa posms ir pa Marijas ielu. Marijas iela un tās turpinājums Čaka iela (reizēm sarunvalodā saukta par <a href={{ url('/lv/cakmarijas-iela') }}>Čakmarijas ielu</a>) jau gadiem ir Rīgas lielā satiksmes bēda.</p>
+                            <p>The next small section of my route is Marijas iela. Marijas iela and its continuation, Čaka iela, (sometimes together referred to as <a href={{ url('/en/cakmarijas-iela') }}>Čakmarijas iela</a>) has been the tragedy of Riga's traffic for years now.</p>
                         </div>
                     </div>
 
@@ -103,7 +102,7 @@
                         </div> 
                         <div class="descr">
                             <h2>Dzirnavu iela</h2>
-                            <p>Marijas un K. Barona ielu savieno <a href={{ url('/lv/dzirnavu-iela') }}>Dzirnavu ielas</a> posms. Tas ir visai pieticīgs un šeit izceļas vien ieeja šikajā Berga bazārā. Taču šeit atrodas arī Tet galvenā ēka un tai iepretī — bārs Če.</p>
+                            <p>Marijas iela and K. Barona iela are connected by a section of <a href={{ url('/en/dzirnavu-iela') }}>Dzirnavu iela</a>. It is rather modest and the main thing that stands out here is the enterence to the chic Berga bazārs. But this is also the home of the main building of Tet as well as a pub called Če.</p>
                         </div>
                     </div>
 
@@ -113,7 +112,7 @@
                         </div> 
                         <div class="descr">
                             <h2>K. Barona iela</h2>
-                            <p>Lai nokļūtu līdz Vērmanes dārzam, eju pa <a href={{ url('/lv/barona-iela') }}>K. Barona ielu</a>. Šajā posmā ir Jāņa Rozes oriģinālā grāmatnīca, kā arī Latvijas vēsturē nozīmīgais nams Baronā ielā 3. Šobrīd šeit vēl brauc arī mašīnas, bet nākotnē Barona ielu plānots pārveidot par gājēju, velosipēdu un tramvaja ielu.</p>
+                            <p>To reach Vērmane Garden, I go along <a href={{ url('/en/barona-iela') }}>K. Barona iela</a>. This section houses the original Jānis Roze bookstore, as well as the historically important building of Barona iela 3. Currently cars still drive on this street but in the future it is supposed to become the street of pedestrians, bikes and tram.</p>
                         </div>
                     </div>
 
@@ -122,13 +121,13 @@
                             <img src="/assets/images/vermanes.jpg">
                         </div> 
                         <div class="descr">
-                            <h2>Vērmanes dārzs</h2>
-                            <p>Iespējams, viena no patīkamākajām ceļa daļām ir <a href={{ url('/lv/vermanes-darzs') }}>Vērmanes dārza</a> šķērsošana. Dārzu sāka veidot pirms gandrīz 200 gadiem pēc tam, kad, gaidot Napoleona iebrukumu, tika nodedzināta Pēterburgas priekšpilsēta.</p>
+                            <h2>Vērmane Garden</h2>
+                            <p>Possibly the nicest part of my route is <a href={{ url('/en/vermanes-darzs') }}>Vērmane Garden</a>. The creation of the garden started almost 200 years ago, when, anticipating Napoleon's invasion, Riga burned down its Saint Petersburg suburb.</p>
                         </div>
                     </div>
                     
                 </main>
-                @include('lv.footer')
+                @include('en.footer')
             </div>
 
         </div>
